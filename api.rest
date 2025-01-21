@@ -1,0 +1,12 @@
+GET http://localhost:3000/todos
+###
+
+GET http://localhost:3000/todos/3
+###
+
+POST http://localhost:3000/todos
+
+{
+    "id": 1,
+    "title": "new message"
+}
